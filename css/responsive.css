@@ -1,0 +1,803 @@
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media screen and  (max-width: 768px) and (min-width: 320px) {
+    /*hero slider*/
+    
+    .hero-content {
+        height: 390px;
+        padding-top: 20%;
+    }
+    .hero-content h1{
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    .hero-content p {
+        font-size: 1.2rem;
+        padding: 30px 0;
+    }
+    .hero-content .banner-arrow img {
+        width: 60%;
+    }
+    .mouse-down a img {
+        width: 35px;
+    }
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+
+
+
+    /*about us*/
+    .about .about-content {
+        padding: 15px 0;
+    }
+    .about .table-display .single-about-content {
+        width: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align-last: center;
+        padding: 50px 15px 50px;
+    }
+    .about .single-about-content h4 {
+        font-size: 1.4rem;
+    }
+
+
+
+    /*.why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }*/
+
+    /*speacial-----*/
+
+    .speacial .speacial-content {
+        height: 100vh;
+        padding: 7rem 0;
+    }
+    .speacial .single-speacial-content h2 {
+        font-size: 3rem;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .speacial .single-speacial-content h4 {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+
+    /*Recipes ---------*/
+    .recipe-details {
+        padding: 80px 0 40px;
+    }
+    .recipe-details .recipe-title h2 {
+        font-size: 3rem;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .recipe-list .menu-details .menu-item {
+        padding: 0 0px;
+        margin: 0 0 25px;
+    }
+    .menu-item .speacial-dish {
+        top: -15px;
+        left: 0px;
+        width: 64px;
+        height: 22px;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .recipe-list .menu-title h3 {
+        font-size: 1.4rem;
+    }
+    .menu-item .speacial-dish::before {
+        top: 9px;
+        left: -17px;
+        width: 30px;
+        height: 4px;
+    }
+    .recipes-tabs li {
+        width: 100%;
+        float: left;
+    }
+    .recipes-tabs li a {
+        padding: 20px 0;
+    }
+    .nav-tabs>li.active>a::before {
+        content: none;
+    }
+
+
+    /*Reservation ---------*/
+    .about.reservation .about-content {
+        padding: 2rem 0;
+    }
+    .about.reservation .table-display .single-about-content {
+        padding: 35px 0px;
+    }
+    .about .single-about-content h2 {
+        font-size: 3.5rem;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    .download-btn{
+        width: 100%;
+        padding: 5px 50px;
+    }
+
+    /*contact us page*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+    .choose-wrapper{
+        padding: 40px 20px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width: 360px) and (min-width: 321px) {
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 55px;
+        line-height: 27px;
+    }
+
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+    .typed-strings h1{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    .download-btn{
+        width: 100%;
+        padding: 5px 50px;
+    }
+
+    /*contact us page*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+    .choose-wrapper{
+        padding: 40px 20px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width: 375px) and (min-width: 361px) {
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+    .typed-strings h1{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    .download-btn{
+        width: 100%;
+        padding: 5px 50px;
+    }
+    /*contact us page*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+    .choose-wrapper{
+        padding: 40px 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 414px) and (min-width: 376px) {
+
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    /*contact us page*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+    .choose-wrapper{
+        padding: 40px 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 480px) and (min-width: 415px) {
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-content-wrap-1{
+        height: 400px;
+    }
+
+    .hero-content-wrap{
+        height: auto;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    /*contact form*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 568px) and (min-width: 481px) {
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    /*contact form*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 640px) and (min-width: 569px) {
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    /*contact form*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 720px) and (min-width: 641px) {
+    /*hero slider*/
+    .hero-content h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .hero-content-wrap-1, .hero-content-wrap{
+        height: 400px;
+    }
+
+    .slider-bg-content .hero-image{
+        display: none;
+    }
+
+    .hero-action-btn a{
+        margin-bottom: 15px;
+    }
+
+    .custom-indicator .owl-dots{
+        left: 35%;
+    }
+
+
+    .hero-slider-section-two .section-shape{
+        position: relative;
+    }
+
+    /*promo section*/
+    .higlight-text{
+        display: none;
+    }
+
+    /*about us*/
+    .why-us-right-content-wrap{
+        padding-bottom: 0;
+    }
+    .why-us-contents{
+        margin-top: 0;
+    }
+
+    /*features*/
+    .feature-box.feature-box-lefticon, .feature-box.feature-box-righticon {
+        padding: 1.15em 1em;
+    }
+
+    .nav-center .nav-tabs > li > a span{
+        display: none;
+    }
+
+    /*video overly*/
+    .overlay{
+        padding: 100px 0;
+    }
+
+    /*pricing*/
+    .plan-description{
+        margin-left: 0;
+    }
+
+    /*download section*/
+    .download-section{
+        margin-top: 0;
+    }
+    .download-app-text{
+        padding: 50px 0;
+    }
+
+    /*contact form*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) and (min-width: 721px) {
+
+
+    /*contact form*/
+    .choose-img{
+        position: relative;
+        display: block;
+    }
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media screen and (max-width: 992px) and (min-width: 360px) {
+    .map_pointer {
+        display: none;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1080px) and (min-width: 1025px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1152px) and (min-width: 1081px) {
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1280px) and (min-width: 1153px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1440px) and (min-width: 1367px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1600px) and (min-width: 1441px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1680px) and (min-width: 1601px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1920px) and (min-width: 1681px) {
+
+}
